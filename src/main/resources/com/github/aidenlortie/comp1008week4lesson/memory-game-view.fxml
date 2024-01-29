@@ -22,52 +22,52 @@
                <children>
                   <ImageView fitHeight="300.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/back_of_card.png" />
+                        <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/back_of_card.png" />
+                        <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/back_of_card.png" />
+                        <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="160.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/back_of_card.png" />
+                        <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="310.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/back_of_card.png" />
+                        <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="460.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/back_of_card.png" />
+                        <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="610.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/back_of_card.png" />
+                        <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="760.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/back_of_card.png" />
+                        <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="10.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/back_of_card.png" />
+                        <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="300.0" fitWidth="150.0" layoutX="160.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/back_of_card.png" />
+                        <Image url="@images/3_of_spades.png" />
                      </image>
                   </ImageView>
                </children>
@@ -90,7 +90,7 @@
                         <Label text="Guesses:" />
                         <Label text="Correct:" GridPane.rowIndex="1" />
                         <Label fx:id="guessLabel" text="0" GridPane.columnIndex="1" />
-                        <Label fx:id="CorrectGuessLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label fx:id="correctGuessLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                      </children>
                   </GridPane>
                   <Button fx:id="playAgain" alignment="TOP_RIGHT" mnemonicParsing="false" text="Play Again" />

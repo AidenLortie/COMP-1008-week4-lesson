@@ -17,7 +17,7 @@ import java.util.ResourceBundle;
 public class MemoryGameController implements Initializable {
 
     @FXML
-    private Label CorrectGuessLabel;
+    private Label correctGuessLabel;
 
     @FXML
     private FlowPane cardFlowPlane;
@@ -96,8 +96,24 @@ public class MemoryGameController implements Initializable {
             secondCard = cardsInGame.get(indexOfCard);
             imageView.setImage(secondCard.getImage());
             checkForMatch();
-            updateLabels();
+            updateLables();
         }
+
+    }
+
+    private void updateLables(){
+        correctGuessLabel.setText(Integer.toString(numOfMatches));
+        guessLabel.setText(Integer.toString(numOfGuess));
+    }
+
+    private void checkForMatch(){
+        if (firstCard.isSameCard(secondCard)){
+            numOfMatches++;
+            firstCard.setMatched(true);
+            secondCard.setMatched(true);
+        }
+        firstCard = null;
+        secondCard = null;
 
     }
 }
