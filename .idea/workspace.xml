@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff8b559a-5040-4703-9f84-7269ce92840c" name="Changes" comment="Commit">
+    <list default="true" id="ff8b559a-5040-4703-9f84-7269ce92840c" name="Changes" comment="AHHHHH">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/aidenlortie/comp1008week4lesson/MemoryGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/aidenlortie/comp1008week4lesson/MemoryGameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/memory-game-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/memory-game-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706552228990</updated>
-      <workItem from="1706552230000" duration="7387000" />
+      <workItem from="1706552230000" duration="7882000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -92,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706560320404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="AHHHHH">
+      <option name="closed" value="true" />
+      <created>1706561455945</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706561455945</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="AHHHHH" />
+    <option name="LAST_COMMIT_MESSAGE" value="AHHHHH" />
   </component>
 </project>

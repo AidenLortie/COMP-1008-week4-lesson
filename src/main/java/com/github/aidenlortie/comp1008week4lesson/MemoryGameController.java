@@ -1,9 +1,7 @@
 package com.github.aidenlortie.comp1008week4lesson;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -17,21 +15,21 @@ import java.util.ResourceBundle;
 public class MemoryGameController implements Initializable {
 
     @FXML
-    private Label correctGuessLabel;
+    private FlowPane cardFlowPane;
 
     @FXML
-    private FlowPane cardFlowPlane;
+    private Label correctGuessLabel;
 
     @FXML
     private Label guessLabel;
 
     private ArrayList<MemoryCard> cardsInGame;
-    private MemoryCard firstCard, secondCard;
+    private  MemoryCard firstCard, secondCard;
     private int numOfGuess;
     private int numOfMatches;
 
     @FXML
-    void playAgain(ActionEvent event){
+    void playAgain() {
         firstCard = null;
         secondCard = null;
 
@@ -40,27 +38,28 @@ public class MemoryGameController implements Initializable {
 
         cardsInGame = new ArrayList<>();
 
-        for (int i = 0; i < cardFlowPlane.getChildren().size()/2; i++){
+        for (int i=0; i < cardFlowPane.getChildren().size()/2;i++){
             Card cardDealt = deck.dealTopCard();
-            cardsInGame.add(new MemoryCard(cardDealt.getSuit(), cardDealt.getFaceName()));
-            cardsInGame.add(new MemoryCard(cardDealt.getSuit(), cardDealt.getFaceName()));
+            cardsInGame.add(new MemoryCard(cardDealt.getSuit(),cardDealt.getFaceName()));
+            cardsInGame.add(new MemoryCard(cardDealt.getSuit(),cardDealt.getFaceName()));
         }
         Collections.shuffle(cardsInGame);
         flipAllCards();
-
     }
 
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
 
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        initializeImageView();;
+        playAgain();
     }
 
     /**
      * This will add a number to each imageView and set the image to the back of the card
      */
     private void initializeImageView(){
-        for(int i = 0; i < cardFlowPlane.getChildren().size(); i++) {
-            ImageView imageView = (ImageView) cardFlowPlane.getChildren().get(i);
+        for (int i = 0; i<cardFlowPane.getChildren().size();i++) {
+            ImageView imageView = (ImageView) cardFlowPane.getChildren().get(i);
             imageView.setImage(new Image(Card.class.getResourceAsStream("images/back_of_card.png")));
             imageView.setUserData(i);
             //register a click listener
@@ -70,12 +69,15 @@ public class MemoryGameController implements Initializable {
         }
     }
 
+    /**
+     * This will show the back of all cards that are not matched
+     */
     private void flipAllCards(){
-        for(int i = 0; i<cardsInGame.size(); i++){
-            ImageView imageView = (ImageView) cardFlowPlane.getChildren().get(i);
+        for (int i=0; i<cardsInGame.size();i++){
+            ImageView imageView = (ImageView) cardFlowPane.getChildren().get(i);
             MemoryCard card = cardsInGame.get(i);
 
-            if(card.isMatched())
+            if (card.isMatched())
                 imageView.setImage(card.getImage());
             else
                 imageView.setImage(card.getBackOfCardImage());
@@ -83,21 +85,24 @@ public class MemoryGameController implements Initializable {
 
     }
 
+
     private void flipCard(int indexOfCard){
-        if( firstCard == null && secondCard == null)
+        if (firstCard == null && secondCard == null)
             flipAllCards();
 
-        ImageView imageView = (ImageView) cardFlowPlane.getChildren().get(indexOfCard);
+        ImageView imageView = (ImageView) cardFlowPane.getChildren().get(indexOfCard);
 
         if (firstCard == null){
             firstCard = cardsInGame.get(indexOfCard);
             imageView.setImage(firstCard.getImage());
-        } else if (secondCard == null){
+        } else if (secondCard == null) {
+            numOfGuess++;
             secondCard = cardsInGame.get(indexOfCard);
             imageView.setImage(secondCard.getImage());
             checkForMatch();
             updateLables();
         }
+
 
     }
 
@@ -116,4 +121,5 @@ public class MemoryGameController implements Initializable {
         secondCard = null;
 
     }
+
 }
