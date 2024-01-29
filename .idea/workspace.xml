@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff8b559a-5040-4703-9f84-7269ce92840c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/aidenlortie/comp1008week4lesson/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/aidenlortie/comp1008week4lesson/DeckOfCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/aidenlortie/comp1008week4lesson/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/aidenlortie/comp1008week4lesson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/aidenlortie/comp1008week4lesson/MemoryGameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/10_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/10_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/10_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/10_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/2_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/2_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/2_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/2_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/3_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/3_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/3_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/3_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/4_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/4_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/4_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/4_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/5_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/5_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/5_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/5_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/6_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/6_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/6_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/6_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/7_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/7_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/7_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/7_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/8_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/8_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/8_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/8_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/9_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/9_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/9_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/9_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/ace_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/ace_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/ace_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/ace_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/ace_of_spades2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/black_joker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/jack_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/jack_of_clubs2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/jack_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/jack_of_diamonds2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/jack_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/jack_of_hearts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/jack_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/jack_of_spades2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/king_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/king_of_clubs2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/king_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/king_of_diamonds2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/king_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/king_of_hearts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/king_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/king_of_spades2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/queen_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/queen_of_clubs2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/queen_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/queen_of_diamonds2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/queen_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/queen_of_hearts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/queen_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/queen_of_spades2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/images/red_joker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/aidenlortie/comp1008week4lesson/memory-game-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2bdkE9D4yJx8aEYxpkWc8rMhHmw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff8b559a-5040-4703-9f84-7269ce92840c" name="Changes" comment="" />
+      <created>1706552228990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706552228990</updated>
+      <workItem from="1706552230000" duration="889000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
